@@ -1,0 +1,129 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+  background-color: #004aad;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header h1 {
+  margin-bottom: 5px;
+}
+nav{
+    text-align: center;
+    margin-top: 5px;
+}
+
+nav a {
+    display: inline-block;
+    color: white;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Sections */
+section {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 30px;
+  border-bottom: 2px solid #ddd;
+}
+
+h2 {
+  color: #004aad;
+  margin-bottom: 20px;
+}
+
+/* About */
+img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #004aad
+  display: block; 
+  margin: 10px auto;
+}
+
+/* Skills Table */
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 60%;
+}
+
+th, td {
+  border: 1px solid #004aad;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #004aad;
+  color: white;
+}
+
+/* Projects */
+.project-box {
+  background-color: white;
+  border: 1px solid #ccc;
+  margin: 10px auto;
+  width: 60%;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+/* Contact Form */
+form table {
+  width: 70%;
+  margin: 0 auto 10px;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #004aad;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #004aad;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #003a8c;
+}
+
+/* Footer */
+footer {
+  text-align: right;
+  background-color: #004aad;
+  padding: 10px 20px;
+}
+
+.back-to-top {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.back-to-top:hover {
+  text-decoration: underline;
+}
