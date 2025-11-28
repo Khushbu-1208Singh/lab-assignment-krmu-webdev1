@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Real Estate Website</title>
+    <link rel="stylesheet" href="styleCap.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<a href="#main" class="skip-link">Skip to main content</a>
+
+<!-- HEADER -->
+<header class="site-header">
+    <div class="logo">
+        <span class="logo-icon">🏙️</span>
+        <span class="logo-text">UrbanNest</span>
+    </div>
+    <nav class="main-nav">
+        <ul>
+            <li><a href="#properties">Properties</a></li>
+            <li><a href="#agents">Agents</a></li>
+            <li><a href="#whyus">Why Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- HERO / BANNER -->
+<section class="hero">
+    <div class="hero-content">
+        <h1>Find Your Dream Home</h1>
+        <p>Browse handpicked properties from top locations with trusted real estate agents.</p>
+        <a href="#properties" class="btn-primary">Browse Listings</a>
+    </div>
+    <div class="hero-image">
+        <img src="Capstone-pic1.jpg" alt="City skyline and apartments">
+    </div>
+</section>
+
+<main id="main">
+
+    <!-- FILTER BAR -->
+    <aside class="filter-bar" aria-label="Property filters">
+        <h2>Filter Properties</h2>
+
+            <select id="location" name="location">
+                <option value="" disabled selected>Location</option>
+                <option>Delhi</option>
+                <option>Mumbai</option>
+                <option>Bengaluru</option>
+                <option>Hyderabad</option>
+            </select>
+
+            <select id="budget" name="budget">
+                <option value="" disabled selected>Price</option>
+                <option>Below ₹30L</option>
+                <option>₹30L - ₹80L</option>
+                <option>₹80L - ₹2Cr</option>
+            </select>
+            <select id="type" name="type">
+                <option value="" disabled selected>Type</option>
+                <option>Apartment</option>
+                <option>Villa</option>
+                <option>Independent House</option>
+                <option>Plot</option>
+            </select>
+            <button class="search-btn">Search</button>
+    </aside>
+
+    <!-- PROPERTY GRID -->
+    <section id="properties" class="properties">
+        <h2>Featured Properties</h2>
+
+        <div class="property-grid">
+            <!-- Card 1 -->
+            <article class="property-card">
+                <img src="Capstone-pic2.webp" alt="Modern apartment in Mumbai">
+                <div class="property-body">
+                    <h3>Modern 2 BHK Apartment</h3>
+                    <p class="location">Mumbai • Andheri East</p>
+                    <p class="price">₹75,00,000</p>
+                    <ul class="tags">
+                        <li>2 BHK</li>
+                        <li>1040 sq.ft</li>
+                        <li>Semi-furnished</li>
+                    </ul>
+                    <button class="btn-secondary">View Details</button>
+                </div>
+            </article>
+
+            <!-- Card 2 -->
+            <article class="property-card">
+                <img src="Capstone-pic3.jpeg" alt="Luxury villa in Bengaluru">
+                <div class="property-body">
+                    <h3>Luxury 4 BHK Villa</h3>
+                    <p class="location">Bengaluru • Whitefield</p>
+                    <p class="price">₹1,95,00,000</p>
+                    <ul class="tags">
+                        <li>4 BHK</li>
+                        <li>2600 sq.ft</li>
+                        <li>Gated Community</li>
+                    </ul>
+                    <button class="btn-secondary">View Details</button>
+                </div>
+            </article>
+
+            <!-- Card 3 -->
+            <article class="property-card">
+                <img src="Capstone-pic4.jpg" alt="1 BHK flat in Delhi">
+                <div class="property-body">
+                    <h3>Budget 1 BHK Flat</h3>
+                    <p class="location">Delhi • Rohini</p>
+                    <p class="price">₹32,00,000</p>
+                    <ul class="tags">
+                        <li>1 BHK</li>
+                        <li>650 sq.ft</li>
+                        <li>Near Metro</li>
+                    </ul>
+                    <button class="btn-secondary">View Details</button>
+                </div>
+            </article>
+
+            <!-- Card 4 -->
+            <article class="property-card">
+                <img src="Capstone-pic5.jpg" alt="Premium penthouse in Hyderabad">
+                <div class="property-body">
+                    <h3>Premium City Penthouse</h3>
+                    <p class="location">Hyderabad • Hitech City</p>
+                    <p class="price">₹1,25,00,000</p>
+                    <ul class="tags">
+                        <li>3 BHK</li>
+                        <li>2000 sq.ft</li>
+                        <li>City View</li>
+                    </ul>
+                    <button class="btn-secondary">View Details</button>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- AGENT INFO SECTION -->
+    <section id="agents" class="agents">
+        <h2>Our Trusted Agents</h2>
+
+        <div class="agent-grid">
+            <article class="agent-card">
+                <img src="Capstone-pic6.webp" alt="Agent Rohan Sharma">
+                <h3>Rohan Sharma</h3>
+                <p>Specialist - Mumbai & Pune</p>
+                <p class="agent-contact">📞 +91-9000011111</p>
+            </article>
+
+            <article class="agent-card">
+                <img src="Capstone-pic7.avif" alt="Agent Neha Kapoor">
+                <h3>Neha Kapoor</h3>
+                <p>Luxury Homes - Bengaluru</p>
+                <p class="agent-contact">📞 +91-9000022222</p> 
+            </article>
+
+            <article class="agent-card">
+                <img src="Capstone-pic8.jpeg" alt="Agent Aryan Singh"> 
+                <h3>Aryan Singh</h3>
+                <p>Budget Homes - Delhi NCR</p>
+                <p class="agent-contact">📞 +91-9000033333</p>
+            </article>
+        </div> 
+    </section> 
+
+    <!-- WHY CHOOSE US SECTION -->
+
+<section id="whyus" class="why-us">
+    <h2>Why Choose Us</h2>
+
+    <div class="why-grid">
+
+        <div class="why-card">
+            <h3>Trusted Experts</h3>
+            <p>Our agents have years of experience in real estate.</p>
+        </div>
+
+        <div class="why-card">
+            <h3>24/7 Support</h3>
+            <p>We are available anytime for guidance & help.</p>
+        </div>
+
+        <div class="why-card">
+            <h3>Wide Selection</h3>
+            <p>Find premium homes in major Indian cities.</p>
+        </div>
+
+        <div class="why-card">
+            <h3>Best Deals</h3>
+            <p>Get best deals through trusted builders & agents.</p>
+        </div>
+
+    </div>
+</section>
+
+    <!-- CONTACT / ENQUIRY FORM -->
+    <section id="contact" class="contact">
+        <h2>Request a Call Back</h2>
+        <p>Share your details and our team will contact you with the best property options.</p>
+
+        <form>
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input id="name" type="text" required placeholder="Enter your name">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input id="email" type="email" required placeholder="Enter your email">
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input id="phone" type="tel" required placeholder="Enter your phone number">
+            </div>
+
+            <div class="form-group">
+                <label for="city">Preferred City</label>
+                <select id="city" required>
+                    <option value="">Select city</option>
+                    <option>Delhi</option>
+                    <option>Mumbai</option>
+                    <option>Bengaluru</option>
+                    <option>Hyderabad</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" rows="4" required placeholder="Tell us what kind of property you are looking for"></textarea>
+            </div>
+
+            <button type="submit" class="btn-primary">Submit Enquiry</button>
+        </form>
+    </section>
+
+</main>
+
+<!-- STATS SECTION -->
+<section class="stats-section">
+    <div class="stats-grid">
+
+        <div class="stat-card">
+            <h3>1,200+</h3>
+            <p>Properties Sold</p>
+        </div>
+
+        <div class="stat-card">
+            <h3>350+</h3>
+            <p>Happy Clients</p>
+        </div>
+
+        <div class="stat-card">
+            <h3>15</h3>
+            <p>Years Experience</p>
+        </div>
+
+        <div class="stat-card">
+            <h3>30</h3>
+            <p>Expert Agents</p>
+        </div>
+
+    </div>
+</section>
+
+<h2 class="blog-title">Latest Blog Posts</h2>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+    <p>© 2025 UrbanNest Real Estate. All rights reserved.</p>
+    <div class="footer-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms</a>
+        <a href="#">Instagram</a>
+    </div>
+</footer>
+
+</body>
+</html>
