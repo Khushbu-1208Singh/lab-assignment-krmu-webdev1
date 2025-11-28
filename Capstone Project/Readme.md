@@ -1,4 +1,5 @@
-#Real Estate Website – Capstone Project (HTML & CSS)
+Real Estate Website – Capstone Project (HTML & CSS).
+
 A simple and fully responsive real estate website built using HTML5 and CSS3 as part of the Web Development Capstone project.
 
 Technologies Used-
